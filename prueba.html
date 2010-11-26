@@ -7,44 +7,16 @@
 <script src="js/jquery.anythingslider.min.js" type="text/javascript"></script>
 <script src="js/jquery.anythingslider.fx.min.js" type="text/javascript"></script>
 <link href="css/anythingslider.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="rutamh.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Creative Studio - XHTML CSS template</title>
 <meta name="keywords" content="Creative Studio, XHTML CSS template, free download, web design" />
 <meta name="description" content="Creative Studio is a standard compliant XHTML CSS template from templatemo.com" />
-<script type="text/javascript">
-$(document).ready(function(){
-  $('#slider1').anythingSlider({
-    width: 600,
-    heigth: 350,
-    startStopped: true,
-    resizeContent: false,
-    navigationFormatter: function(i,panel){
-      return ['Info1','Guanajuato 1','Info2','Guanajuato 2'][i-1];
-    }
-  }).anythingSliderFx({
-     '.fade' : [ 'fade' ],
-    inFx: {
-      '.textSlide h3'  : { opacity: 1, top  : 0, time: 400, easing : 'easeOutBounce' },
-      '.textSlide li'  : { opacity: 1, left : 0, time: 400 },
-      '.textSlide img' : { opacity: 1, time: 400 },
-      '.quoteSlide'    : { top : 0, time: 400, easing : 'easeOutElastic' },
-      '.expand'        : { width: '100%', top: '0%', left: '0%', time: 400, easing : 'easeOutBounce' }
-    },
-    outFx: {
-      '.textSlide h3'      : { opacity: 0, top  : '-100px', time: 350 },
-      '.textSlide li:odd'  : { opacity: 0, left : '-200px', time: 350 },
-      '.textSlide li:even' : { opacity: 0, left : '200px',  time: 350 },
-      '.textSlide img'     : { opacity: 0, time: 350 },
-      '.quoteSlide:first'  : { top : '-500px', time: 350 },
-      '.quoteSlide:last'   : { top : '500px', time: 350 },
-      '.expand'            : { width: '10%', top: '50%', left: '50%', time: 350 }
-    }
-  });
-});
+<script type="text/javascript" src="js/rutamh.slider.js">
 </script>
 </head>
 <body>
-  <ul id="slider1">
+  <ul id="slider1"> <!-- Inicio de Slider -->
     <li class="panel1">
       <div class="quoteSlide">
       <blockquote>Al igual que sucedía en otros países de Hispanoamérica, algunos criollos comenzaron a reunirse en secreto para planear la forma de cambiar el gobierno del Virreinato. En 1809, una de esas conspiraciones fue descubierta en la ciudad de Valladolid, que ahora se llama Morelia.</blockquote>
@@ -54,12 +26,14 @@ $(document).ready(function(){
       <img class="expand" src="http://publicidad.enleonguanajuato.com/wp-content/uploads/2010/03/guanajuato-city-mexico.jpg" alt=""></img>
     </li>
     <li class="panel3">
-      <blockquote>El año siguiente, Miguel Domínguez que era el corregidor (una clase de juez) de Querétaro, y su esposa Josefa Ortíz de Domínguez, empezaron a reunirse con algunos militares, como Ignacio Allende y Juan Aldama. A esas juntas también asistía el párroco de Dolores, Miguel Hidalgo y Costilla. La conspiración fue descubierta, pero antes de que las autoridades pudieran apresar a los participantes, Doña Josefa lo supo y consiguió avisarle a Allende.</blockquote>
+      <div class="quoteSlide">
+        <blockquote>El año siguiente, Miguel Domínguez que era el corregidor (una clase de juez) de Querétaro, y su esposa Josefa Ortíz de Domínguez, empezaron a reunirse con algunos militares, como Ignacio Allende y Juan Aldama. A esas juntas también asistía el párroco de Dolores, Miguel Hidalgo y Costilla. La conspiración fue descubierta, pero antes de que las autoridades pudieran apresar a los participantes, Doña Josefa lo supo y consiguió avisarle a Allende.</blockquote>
+      </div>
     </li>
     <li class="panel4">
       <img class="fade" src="http://www.toursbymexico.com/pictures/guanajuato.san_miguel_de_allende.parroquia.jpg" alt="" />
     </li>
-  </ul>
+  </ul>  <!-- Fin de Slider -->
 </body>
 </html>
 

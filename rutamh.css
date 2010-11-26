@@ -1,4 +1,4 @@
-.titulo{
- color:'white';
-}
+.quoteSlide { padding: 8px; }
+.quoteSlide blockquote { font: italic 22px/1.5 Georgia, Serif; text-align: center; color: #444; margin: 0 0 10px 0; }
+.quoteSlide p { text-align: center; }
 
