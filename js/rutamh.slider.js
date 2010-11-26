@@ -25,5 +25,14 @@ $(document).ready(function(){
       '.expand'            : { width: '10%', top: '50%', left: '50%', time: 350 }
     }
   });
+
+ $(".menu").submit(function(e){
+            e.preventDefault();
+            //alert(this.href);
+            $.post(this.action, $(".menu").serialize(), function(data){
+                $("#info").html(data);
+            });
+            //$("#mitte").load(this.action);
+        });
 });
 
