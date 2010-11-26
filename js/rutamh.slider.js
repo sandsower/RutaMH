@@ -3,7 +3,7 @@ $(document).ready(function(){
     width: 600,
     heigth: 350,
     startStopped: true,
-    resizeContent: true,
+    resizeContent: false,
     theme: 'metallic',
     themeDirectory: 'css/theme-metallic.css',
   }).anythingSliderFx({

@@ -2,3 +2,14 @@
 .quoteSlide blockquote { font: italic 22px/1.5 Georgia, Serif; text-align: center; color: #444; margin: 0 0 10px 0; }
 .quoteSlide p { text-align: center; }
 
+/* Tamaño de los paneles */
+#slider1 .panel1 {width: 450px; height: 650px;}
+#slider1 .panel3 {width: 375px; height: 540px;}
+
+ul { margin: 0 0 25px 25px; }
+ul li { font: 15px Georgia, Serif; margin: 0 0 8px 0; }
+
+.lista{
+font: italic 18px/1 Georgia, Serif; text-align: left; color: #444; margin: 0 0 10px 0; width: 450px; height: 800px;
+}
+
