@@ -3,7 +3,9 @@ $(document).ready(function(){
     width: 600,
     heigth: 350,
     startStopped: true,
-    resizeContent: true
+    resizeContent: true,
+    theme: 'metallic',
+    themeDirectory: 'css/theme-metallic.css',
   }).anythingSliderFx({
      '.fade' : [ 'fade' ],
     inFx: {
