@@ -12,4 +12,30 @@ ul li { font: 15px Georgia, Serif; margin: 0 0 8px 0; }
 .lista{
 font: italic 18px/1 Georgia, Serif; text-align: left; color: #444; margin: 0 0 10px 0; width: 450px; height: 800px;
 }
+#navi {  
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#navi li {
+	margin:2px;
+	padding:2px;
+	border:1px solid #CCCCCC;
+	float:left;
+}
+
+#navi li a {
+	display:block;
+	width:150px;
+	padding:4px 0;
+	text-decoration:none;
+	text-align:center;
+	font-size:11px;
+	color:#4A4A4A;
+	background-color:#B9C3ED;
+}
+#navi li a:hover {
+	color:#99CC00;
+	background-color:#003366;
+}
 
