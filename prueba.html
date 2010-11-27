@@ -19,7 +19,7 @@
 </script>
 <script type="text/javascript" >
     $(document).ready(function(){
-        $(".menu").submit(function(e){
+        $("a.menu").click(function(e){
             e.preventDefault();
             alert(this.href);
             $.post(this.action, $(".menu").serialize(), function(data){
@@ -31,9 +31,9 @@
 </script>
 </head>
 <body>
-<div class="menu">
+<div>
 <ul>
-  <li><a href="info.html">Info</a></li>
+  <li><a href="info.html" class="menu">Info</a></li>
 </ul>
 </div>
 <div id="info">Aqui va el contenido</div>
