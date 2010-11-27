@@ -9,28 +9,33 @@
 <link href="css/anythingslider.css" type="text/css" rel="stylesheet" />
 <link rel="stylesheet" href="rutamh.css" />
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="rutamh.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/rutamh.slider.js"></script>
 <link rel="stylesheet" href="rutamh.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Creative Studio - XHTML CSS template</title>
 <meta name="keywords" content="Creative Studio, XHTML CSS template, free download, web design" />
 <meta name="description" content="Creative Studio is a standard compliant XHTML CSS template from templatemo.com" />
+</script>
 <script type="text/javascript" >
     $(document).ready(function(){
-        $("a.linkmenu").click(function(e){
-        	e.preventDefault();
-        });
+        $("a.menu").click(function(e){
+            e.preventDefault();
+            //alert(this.href);
+        
+                $("#info").load(this.href);
             //$("#mitte").load(this.action);
         });
     });
 </script>
 </head>
 <body>
-<div class="menu">
+<div>
 <ul>
-  <li><a class="linkmenu" href="info.html">Info</a></li>
+  <li><a href="info.html" class="menu">Info</a></li>
 </ul>
 </div>
 <div id="info">Aqui va el contenido</div>
 </body>
 </html>
+
