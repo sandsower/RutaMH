@@ -21,10 +21,9 @@
     $(document).ready(function(){
         $("a.menu").click(function(e){
             e.preventDefault();
-            alert(this.href);
-            $.post(this.action, $(".menu").serialize(), function(data){
-                $("#info").html(data);
-            });
+            //alert(this.href);
+        
+                $("#info").load(this.href);
             //$("#mitte").load(this.action);
         });
     });
