@@ -4,7 +4,7 @@
 
 /* Tamaño de los paneles */
 #slider1 .panel1 {width: 450px; height: 650px;}
-#slider1 .panel3 {width: 375px; height: 540px;}
+#slider1 .panelmini {width: 375px; height: 540px;}
 
 ul { margin: 0 0 25px 25px; }
 ul li { font: 15px Georgia, Serif; margin: 0 0 8px 0; }

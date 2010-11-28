@@ -58,44 +58,85 @@ $(document).ready(function(){
 
 
 					$("a.p1").click(function(e){
-					            e.preventDefault();
+					        e.preventDefault();
+					        var link = this.href;
 							map.panTo(markers[1].getLatLng());
+							$("#info1").toggle('slow',function(){
+								$("#info1").load("info.html");
+							});
+							$("#info1").show('slow');
 						});
 					$("a.p2").click(function(e){
 					            e.preventDefault();
 							map.panTo(markers[2].getLatLng());
+							$("#info1").hide('slow',function(){
+								$("#info1").load("info2.html");
+							}).show();
+							$("#info1").show('slow');
 						});
 					$("a.p3").click(function(e){
 					            e.preventDefault();
 							map.panTo(markers[3].getLatLng());
+							$("#info1").hide('slow',function(){
+								$("#info1").load("info3.html");
+							}).show();
+							$("#info1").show('slow');
 						});
 					$("a.p4").click(function(e){
 					            e.preventDefault();
 							map.panTo(markers[4].getLatLng());
+							$("#info1").hide('slow',function(){
+								$("#info1").load("info4.html");
+							}).show();
+							$("#info1").show('slow');
 						});
 					$("a.p5").click(function(e){
 					            e.preventDefault();
 							map.panTo(markers[5].getLatLng());
+							$("#info1").hide('slow',function(){
+								$("#info1").load("info5.html");
+							}).show();
+							$("#info1").show('slow');
 						});
 					$("a.p6").click(function(e){
 					            e.preventDefault();
 							map.panTo(markers[6].getLatLng());
+							$("#info1").hide('slow',function(){
+								$("#info1").load("info6.html");
+							}).show();
+							$("#info1").show('slow');
 						});
 					$("a.p7").click(function(e){
 					            e.preventDefault();
 							map.panTo(markers[7].getLatLng());
+							$("#info1").hide('slow',function(){
+								$("#info1").load("info6.html");
+							}).show();
+							$("#info1").show('slow');
 						});
 					$("a.p8").click(function(e){
 					            e.preventDefault();
 							map.panTo(markers[8].getLatLng());
+							$("#info1").hide('slow',function(){
+								$("#info1").load("info7.html");
+							}).show();
+							$("#info1").show('slow');
 						});
 					$("a.p9").click(function(e){
 					            e.preventDefault();
 							map.panTo(markers[9].getLatLng());
+							$("#info1").hide('slow',function(){
+								$("#info1").load("info8.html");
+							}).show();
+							$("#info1").show('slow');
 						});
 					$("a.p10").click(function(e){
 					            e.preventDefault();
 							map.panTo(markers[10].getLatLng());
+							$("#info1").hide('slow',function(){
+								$("#info1").load("info9.html");
+							}).show();
+							$("#info1").show('slow');
 						});
 					
 				/*
